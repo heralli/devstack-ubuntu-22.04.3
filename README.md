@@ -13,9 +13,10 @@ Create a `stack` user with sudo privileges and clone the repo.
  $ pwd #you should now be on /opt/stack  
  $ git clone https://github.com/heralli/devstack-ubuntu-22.04.3.git
  $ cd devstack-ubuntu-22.04.3/devstack
+ $ cp samples/local.conf .
 ```
 
-Change the following in `local.conf`
+Set/Change the following in `local.conf`
 
 ```bash
 HOST_IP=<changeme>
